@@ -1,5 +1,5 @@
-numpy
-tensorflow
 streamlit
-Image
-PIL
+tensorflow
+numpy
+pandas
+Pillow
