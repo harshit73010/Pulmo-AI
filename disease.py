@@ -30,9 +30,7 @@ def is_xray(img):
 # -------------------------------
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model(
-        "C:/Users/ASUS/Desktop/Disease_Detection/cnn_model.h5"
-    )
+   model = tf.keras.models.load_model("cnn_model.h5")
     return model
 
 model = load_model()
